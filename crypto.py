@@ -1,3 +1,5 @@
+# This script finds the latest prices for Bitcoin and Ethereum in GBP and USD and sends them to phone via Telegram 
+
 import datetime
 from secrets import API_TOKEN # Extra .py file saved locally to hide my Telegram API
 from pycoingecko import CoinGeckoAPI
